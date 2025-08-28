@@ -361,7 +361,7 @@ class AdminDestinationController extends Controller
             } else {
                 // Soft delete - can be restored
                 $destination->delete();
-                $message = 'Destinasi berhasil dipindahkan ke trash. Dapat dipulihkan dalam 30 hari.';
+                $message = 'Destinasi berhasil Dihapus.';
             }
 
             if ($request->expectsJson()) {

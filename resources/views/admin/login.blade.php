@@ -58,13 +58,13 @@
         </div>
         
         <!-- Demo Info -->
-        <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded">
+        <!-- <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded">
             <div class="text-center">
                 <p class="text-xs text-yellow-700">
                     <strong>Demo Password:</strong> admin123
                 </p>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>

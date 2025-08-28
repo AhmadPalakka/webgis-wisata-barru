@@ -26,7 +26,7 @@
             
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
-                <button class="text-white hover:text-yellow-300 text-2xl" onclick="toggleMobileMenu()">
+                <button class="text-black hover:text-yellow-300 text-2xl" onclick="toggleMobileMenu()">
                     ☰
                 </button>
             </div>
@@ -35,10 +35,10 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-white/20">
             <div class="flex flex-col space-y-3 pt-4">
-                <a href="{{ route('home') }}" class="text-white hover:text-yellow-300 font-medium">Beranda</a>
-                <a href="{{ route('map.index') }}" class="text-white hover:text-yellow-300 font-medium">Peta Interaktif</a>
-                <a href="{{ route('destinations.index') }}" class="text-white hover:text-yellow-300 font-medium">Destinasi Wisata</a>
-                <a href="#" class="text-white hover:text-yellow-300 font-medium">Tentang</a>
+                <a href="{{ route('home') }}" class="text-black hover:text-yellow-300 font-medium">Beranda</a>
+                <a href="{{ route('map.index') }}" class="text-black hover:text-yellow-300 font-medium">Peta Interaktif</a>
+                <a href="{{ route('destinations.index') }}" class="text-black hover:text-yellow-300 font-medium">Destinasi Wisata</a>
+                <!-- <a href="#" class="text-white hover:text-yellow-300 font-medium">Tentang</a> -->
             </div>
         </div>
     </div>

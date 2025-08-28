@@ -195,7 +195,7 @@
 
 <!-- Call to Action -->
 <div class="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
-    <div class="container mx-auto px-4 text-center">
+    <!-- <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-white mb-4">
             Jelajahi Barru Lebih Dalam
         </h2>
@@ -205,6 +205,6 @@
         <a href="#" class="btn-secondary text-lg bg-white text-blue-600 hover:bg-blue-50">
             🗺️ Buka Peta Interaktif
         </a>
-    </div>
+    </div> -->
 </div>
 @endsection

@@ -973,7 +973,7 @@ function startNavigation(destLat, destLng, destName) {
         },
         lineOptions: {
             styles: [{ 
-                color: '#10b981', 
+                color: '#0000FF', 
                 weight: 5, 
                 opacity: 0.8,
                 dashArray: '10, 5'
@@ -1031,8 +1031,7 @@ function showNavigationPanel(destName, distance, time, destLat, destLng) {
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
-            <button onclick="zoomToRoute()" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-lg text-sm font-medium transition-colors flex items-center justify-center">
-                🔍 <span class="ml-2">Lihat Rute</span>
+
             </button>
             <button onclick="clearRoute()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-lg text-sm font-medium transition-colors flex items-center justify-center">
                 ❌ <span class="ml-2">Hapus Rute</span>
@@ -1050,7 +1049,7 @@ function showNavigationPanel(destName, distance, time, destLat, destLng) {
                 <div class="text-sm text-amber-800">
                     <strong>Tips Navigasi:</strong>
                     <ul class="mt-2 space-y-1">
-                        <li>• Rute ditampilkan dengan garis hijau putus-putus</li>
+                        <li>• Rute ditampilkan dengan garis biru putus-putus</li>
                         <li>• Gunakan Google Maps untuk navigasi turn-by-turn yang akurat</li>
                         <li>• Pastikan GPS tetap aktif selama perjalanan</li>
                     </ul>

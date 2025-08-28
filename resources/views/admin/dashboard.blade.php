@@ -184,7 +184,7 @@
     </div>
 
     <!-- System Information -->
-    <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+    <!-- <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
         <h3 class="text-xl font-bold text-gray-800 mb-4">🔧 Informasi Sistem</h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="text-center">
@@ -200,7 +200,7 @@
                 <div class="text-sm text-gray-600">Tourism Portal</div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <script>

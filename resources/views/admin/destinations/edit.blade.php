@@ -134,7 +134,7 @@
                                        name="address" 
                                        value="{{ old('address', $destination->address) }}"
                                        class="form-input @error('address') border-red-500 @enderror"
-                                       placeholder="Contoh: Kefamenanu, TTU">
+                                       placeholder="Contoh: kec.Barru, Barru">
                                 @error('address')
                                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                                 @enderror
@@ -146,7 +146,7 @@
                                        name="contact" 
                                        value="{{ old('contact', $destination->contact) }}"
                                        class="form-input @error('contact') border-red-500 @enderror"
-                                       placeholder="Contoh: +62 812-3456-7890">
+                                       placeholder="Contoh: +62 000-0000-0000">
                                 @error('contact')
                                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                                 @enderror

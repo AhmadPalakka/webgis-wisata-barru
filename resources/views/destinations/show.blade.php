@@ -273,11 +273,16 @@
                         </div>
                     </div>
 
-                    <!-- Action Buttons -->
-                    <div class="space-y-3">
+                    <a href="{{ route('map.index', ['lat' => $destination->latitude, 'lng' => $destination->longitude]) }}" 
+   target="_blank" 
+   class="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200 text-center block">
+    🗺️ Lihat di Peta
+</a>    
+<!-- 
                         <button onclick="openMapModal()" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200">
                             🗺️ Lihat di Peta
-                        </button>
+                        
+                        </button> -->
                         
                         <a href="https://www.google.com/maps?q={{ $destination->latitude }},{{ $destination->longitude }}" 
                            target="_blank" 
@@ -298,9 +303,9 @@
                         <a href="{{ route('destinations.index') }}" class="block text-blue-600 hover:text-blue-800 font-medium transition-colors">
                             ← Kembali ke Daftar Destinasi
                         </a>
-                        <a href="#" class="block text-blue-600 hover:text-blue-800 font-medium transition-colors">
+                        <!-- <a href="#" class="block text-blue-600 hover:text-blue-800 font-medium transition-colors">
                             🗺️ Lihat Peta Semua Destinasi
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
